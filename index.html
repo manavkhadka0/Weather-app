@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="app-main">
+      <div class="searchInputBox">
+        <input
+          type="text"
+          id="input-box"
+          class="input-box"
+          placeholder="Enter city name..."
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="weather-body">
+        <div class="location-details">
+          <div class="city" id="city">Kathmandu, NP</div>
+          <div class="date" id="date">8 August (Monday), 2018</div>
+          <img
+            id="image"
+            src="https://www.countryflags.io/np/shiny/64.png"
+            alt="country-flag"
+          />
+        </div>
+
+        <div class="weather-status">
+          <div class="temp" id="temp">34&deg;C</div>
+          <div class="min-max" id="min-max">
+            32&deg;C (min) / 34&deg;C (max)
+          </div>
+          <div class="weather" id="weather">Clear</div>
+          <div class="wind" id="wind">Wind Speed: 0</div>
+          <div class="humid" id="humid">Humidity: 0</div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
